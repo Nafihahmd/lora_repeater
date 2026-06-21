@@ -14,11 +14,17 @@ static const uint8_t LORA_SCK  = PB3;
 static const uint8_t LORA_MISO = PB4;
 static const uint8_t LORA_MOSI = PB5;
 
-// LoRa Actuator Pin Definitions
+// LoRa Repeater Pin Definitions
 static const uint8_t LORA_NSS = PB8;
-static const uint8_t LORA_BUSY = PA8;
-static const uint8_t LORA_DIO1 = PA0;
+static const uint8_t LORA_BUSY = PC6;
+static const uint8_t LORA_DIO1 = PA15;
 static const uint8_t LORA_RST = PB7;
+
+// LoRa Actuator Pin Definitions
+// static const uint8_t LORA_NSS = PB8;
+// static const uint8_t LORA_BUSY = PA8;
+// static const uint8_t LORA_DIO1 = PA0;
+// static const uint8_t LORA_RST = PB7;
 
 // LoRa Controller Pin Definitions
 // static const uint8_t LORA_NSS  = PB0;
